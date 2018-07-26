@@ -15,7 +15,7 @@ def iterate_through_hash
 end
 
 def iterate_through_keys
-  summer_olympics = {Sydney => 2000, Athens => 2004, Benijing => 2008 London => 2012}.each_key
-   summer_olympics { Atlanta => 1996}.each_key
- 
+ upcased_cities = {Sydney => 2000, Athens => 2004, Benijing => 2008 London => 2012}.each_key
+ upcased_cities  = { Atlanta => 1996}.each_key
+ puts upcased_cities
 end
